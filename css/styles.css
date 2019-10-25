@@ -1,3 +1,10 @@
+body {
+  background: url('../img/programming-background.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: lightgrey;
+}
 
 .hideMe {
   display: none;
