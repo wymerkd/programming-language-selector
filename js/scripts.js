@@ -7,7 +7,7 @@ $(document).ready(function() {
     var fourthResponse = $("input:radio[name=fourthResponse]:checked").val();
     var fifthResponse = $("input:radio[name=fifthResponse]:checked").val();
     $(".hideMe").hide();
-    
+
     if (firstResponse === 'mac' && secondResponse === "iphone" && thirdResponse === "desktop" && fourthResponse === "elon" && fifthResponse === "frustration") {
       $('#language1').show();
     } else if (firstResponse === "pc" && secondResponse === "android" && thirdResponse ===   "mobile" && fourthResponse === "stephen" && fifthResponse === "persevere") {
@@ -15,10 +15,5 @@ $(document).ready(function() {
     } else {
       $('#language3').show();
     }
-
-
-
-
-
   });
 });
