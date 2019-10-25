@@ -8,7 +8,16 @@ $(document).ready(function() {
     var fifthResponse = $("input:radio[name=fifthResponse]:checked").val();
     console.log(firstResponse, secondResponse, thirdResponse, fourthResponse, fifthResponse)
 
+    if (firstResponse === 'mac') {
+      $('#language1').show();
+    }
     if (firstResponse === 'pc') {
+      $('#language2').show();
+    }
+    if (secondResponse === 'iphone') {
+      $('#language1').show();
+    }
+    if (firstResponse === 'android') {
       $('#language3').show();
     }
   });
