@@ -1,11 +1,42 @@
+
+/* Google Font Options
+font-family: 'Big Shoulders Text', cursive;
+font-family: 'Yanone Kaffeesatz', sans-serif; */
+
 body {
   background: url('../img/programming-background.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+}
+
+h1, p {
   color: lightgrey;
 }
 
+h1 {
+  font-family: 'Big Shoulders Text', cursive;
+  text-align: center;
+  font-size: 50px;
+}
+
+p {
+  padding: 40px 0 20px 0;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 30px;
+}
+
+label {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 30px;
+}
+
+
 .hideMe {
   display: none;
+}
+
+.question {
+  padding: 20px 0 20px 0;
+  color: lightgrey;
 }
