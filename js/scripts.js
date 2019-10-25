@@ -7,5 +7,9 @@ $(document).ready(function() {
     var fourthResponse = $("input:radio[name=fourthResponse]:checked").val();
     var fifthResponse = $("input:radio[name=fifthResponse]:checked").val();
     console.log(firstResponse, secondResponse, thirdResponse, fourthResponse, fifthResponse)
+
+    if (firstResponse === 'pc') {
+      $('#language3').show();
+    }
   });
 });
