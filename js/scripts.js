@@ -6,23 +6,19 @@ $(document).ready(function() {
     var thirdResponse = $("input:radio[name=thirdResponse]:checked").val();
     var fourthResponse = $("input:radio[name=fourthResponse]:checked").val();
     var fifthResponse = $("input:radio[name=fifthResponse]:checked").val();
-    console.log(firstResponse, secondResponse, thirdResponse, fourthResponse, fifthResponse)
-
-
-    if (firstResponse === 'mac' && secondResponse === "iphone") {
+    $(".hideMe").hide();
+    
+    if (firstResponse === 'mac' && secondResponse === "iphone" && thirdResponse === "desktop" && fourthResponse === "elon" && fifthResponse === "frustration") {
       $('#language1').show();
+    } else if (firstResponse === "pc" && secondResponse === "android" && thirdResponse ===   "mobile" && fourthResponse === "stephen" && fifthResponse === "persevere") {
+      $('#language2').show();
+    } else {
+      $('#language3').show();
     }
 
-    if (firstResponse === 'mac' && secondResponse === "android") {
-    $('#language2').show();
-    }
 
-    if (firstResponse === 'pc' && secondResponse === "iphone") {
-    $('#language1').show();
-    }
 
-    if (firstResponse === 'pc' && secondResponse === "android") {
-    $('#language2').show();
-    }
+
+
   });
 });
