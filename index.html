@@ -7,7 +7,7 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.4.1.js"></script>
     <script src="js/scripts.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Big+Shoulders+Text|Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Big+Shoulders+Text|Fira+Code|Yanone+Kaffeesatz&display=swap" rel="stylesheet">
   </head>
   <body>
     <div class="container">
@@ -17,7 +17,7 @@
           <p>Which do you prefer? Mac or PC?</p>
           <div class="radio">
             <label>
-              <input type="radio" name="firstResponse" value="mac">
+              <input type="radio" name="firstResponse" value="mac" checked>
               Mac
             </label>
           </div>
@@ -32,7 +32,7 @@
           <p>Iphone vs Android: Which one is better?</p>
           <div class="radio">
             <label>
-              <input type="radio" name="secondResponse" value="iphone">
+              <input type="radio" name="secondResponse" value="iphone" checked>
               Iphone
             </label>
           </div>
@@ -47,7 +47,7 @@
           <p>Which device are you more likely to use?</p>
           <div class="radio">
             <label>
-              <input type="radio" name="thirdResponse" value="desktop">
+              <input type="radio" name="thirdResponse" value="desktop" checked>
               Desktop Computer or Laptop
             </label>
           </div>
@@ -62,24 +62,24 @@
           <p>Who would you rather have a drink with?</p>
           <div class="radio">
             <label>
-              <input type="radio" name="fourthResponse" value="elon">
+              <input type="radio" name="fourthResponse" value="elon" checked>
               Elon Musk
             </label>
           </div>
-          <img src="img/elon.jpeg" alt="Elon Musk">
+          <img class="round-image" src="img/elon.jpeg" alt="Elon Musk">
           <div class="radio">
             <label>
               <input type="radio" name="fourthResponse" value="stephen">
               Stephen Hawking
             </label>
           </div>
-          <img src="img/stephen.jpeg" alt="Stephen Hawking">
+          <img class="round-image" src="img/stephen.jpeg" alt="Stephen Hawking">
         </div>
         <div class="question">
           <p>What are you most likely to do when you face a difficult challenge?</p>
           <div class="radio">
             <label>
-              <input type="radio" name="fifthResponse" value="frustration">
+              <input type="radio" name="fifthResponse" value="frustration" checked>
               Bang your head against a wall in frustration
             </label>
           </div>
@@ -90,18 +90,21 @@
             </label>
           </div>
         </div>
-        <button type="submit" name="button" class="btn-success">Submit</button>
+        <button id="submit-button" type="submit" name="button" class="btn btn-success btn-lg">Submit</button>
       </form>
       <div id="language1" class="hideMe">
-        <p>Swift</p>
+        <p>You should learn:</p>
+        <p class="language-name">Swift</p>
         <img src="img/swift.jpeg" alt="">
       </div>
       <div id="language2" class="hideMe">
-        <p>C#</p>
+        <p>You should learn:</p>
+        <p class="language-name">C#</p>
         <img src="img/c-sharp.jpeg" alt="">
       </div>
       <div id="language3" class="hideMe">
-        <p>JavaScript</p>
+        <p>You should learn:</p>
+        <p class="language-name">JavaScript</p>
         <img src="img/javascript.png" alt="">
       </div>
     </div>

@@ -1,43 +1,58 @@
-
-/* Google Font Options
+/*
+Google Font Options
 font-family: 'Big Shoulders Text', cursive;
-font-family: 'Yanone Kaffeesatz', sans-serif; */
+font-family: 'Yanone Kaffeesatz', sans-serif;
+font-family: 'Fira Code', monospace; */
 
 body {
-  background: url('../img/programming-background.png');
+  background: url('../img/background2.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
 
 h1 {
-  color: lightgrey;
-}
-
-h1 {
   font-family: 'Big Shoulders Text', cursive;
   text-align: center;
   font-size: 50px;
+  color: #dfe6e9;
+  text-shadow: 2px 2px black;
+  padding-bottom: 60px;
 }
 
 p {
-  padding: 20px 0 20px 0;
   font-family: 'Yanone Kaffeesatz', sans-serif;
-  font-size: 30px;
-  color: lightblue;
+  font-size: 36px;
+  color: #dfe6e9;
+  text-shadow: 2px 2px black;
 }
 
 label {
   font-family: 'Yanone Kaffeesatz', sans-serif;
   font-size: 30px;
+  color: black;
+  text-shadow: 2px 2px 8px #dfe6e9;
 }
-
 
 .hideMe {
   display: none;
 }
 
 .question {
-  padding: 10px 0 10px 0;
-  color: lightgrey;
+  padding: 10px 0 40px 0;
+}
+
+img.round-image  {
+  border-radius: 50%;
+}
+
+p.language-name {
+  font-family: 'Fira Code', monospace;
+  color: black;
+}
+
+#submit-button {
+  font-family: 'Big Shoulders Text', cursive;
+  text-transform: uppercase;
+  margin-bottom: 30px;
 }
