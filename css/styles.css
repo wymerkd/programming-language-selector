@@ -49,6 +49,7 @@ img.round-image  {
 p.language-name {
   font-family: 'Fira Code', monospace;
   color: black;
+  text-shadow: 2px 2px 8px #dfe6e9; 
 }
 
 #submit-button {
